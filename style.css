@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.box {
+    width: 650px;
+    height: 500px;
+    margin: 0 15px;
+    padding: 40px;
+    border: 3px solid #000;
+}
+
+i {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.box-head {
+    height: 60px;
+}
+.box-main {
+    padding-top: 30px;   
+}
+#page-divider {
+    border: 2px solid #000;
+}
