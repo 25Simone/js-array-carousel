@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #083b4c;
+}
+
 .row {
     display: flex;
     justify-content: center;
@@ -12,18 +16,21 @@
 }
 
 .box {
+    color: #fff;
     width: 650px;
     height: 500px;
     margin: 0 15px;
     padding: 40px;
-    border: 3px solid #000;
+    border: 3px solid #fff;
     display: flex;
     flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 i {
     font-size: 40px;
     cursor: pointer;
+    color: #fff;
 }
 
 .box-head {
@@ -35,7 +42,7 @@ i {
     padding-top: 30px;  
 }
 #page-divider {
-    border: 2px solid #000;
+    border: 2px solid #fff;
 }
 .container-img{
     width: 200px;
